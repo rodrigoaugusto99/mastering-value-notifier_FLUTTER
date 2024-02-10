@@ -28,7 +28,7 @@ class _BibleVersePageState extends State<BibleVersePage> {
       ),
       body: ValueListenableBuilder<BibleVerseStateStatus>(
         valueListenable: controller,
-        builder: (BuildContext context, BibleVerseStateStatus state, child) {
+        builder: (context, state, child) {
           if (state == BibleVerseStateStatus.loading) {
             return const Center(
               child: CircularProgressIndicator(),

@@ -1,8 +1,9 @@
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_value_notifier_flutterando/src/bible%20verse/bible_verse_model.dart';
 import 'package:flutter_value_notifier_flutterando/src/bible%20verse/bible_verse_service.dart';
+
+//? VALUE NOTIFIER
 
 enum BibleVerseStateStatus { initial, loading, success, error }
 

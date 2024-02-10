@@ -1,12 +1,8 @@
 import 'dart:developer';
 import 'package:flutter/material.dart';
-import 'package:flutter_value_notifier_flutterando/src/services/http_service.dart';
-import 'package:flutter_value_notifier_flutterando/src/services/implementations/dio_http_service.dart';
-import 'package:flutter_value_notifier_flutterando/src/product/product_service.dart';
 import 'package:flutter_value_notifier_flutterando/src/product/product_state.dart';
 import 'package:flutter_value_notifier_flutterando/src/product/product_controller.dart';
 import 'package:provider/provider.dart';
-import 'package:uno/uno.dart';
 
 class ProductPage extends StatefulWidget {
   const ProductPage({super.key});
